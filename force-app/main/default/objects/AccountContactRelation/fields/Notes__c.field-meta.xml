@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes__c</fullName>
+    <description>Notes specific to this contact&apos;s relationship to the account.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Notes specific to this contact&apos;s relationship to the account.</inlineHelpText>
+    <label>Notes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>
