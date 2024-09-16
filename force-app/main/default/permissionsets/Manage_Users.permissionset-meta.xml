@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<PermissionSet xmlns="https://soap.sforce.com/2006/04/metadata">
     <description>Grants user permissions to create, edit, and delete users</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -9,11 +9,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.Login_with_SSO_only__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>User.iahelp__ImprovedHelpUserType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
