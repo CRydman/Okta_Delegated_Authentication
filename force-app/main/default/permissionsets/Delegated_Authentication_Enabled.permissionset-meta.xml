@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission set must be assigned to force the user to login via SSO (i.e. Okta).  Assignments controlled by User Access Policies.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>*Delegated Authentication Enabled</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IsSsoEnabled</name>
+    </userPermissions>
+</PermissionSet>
