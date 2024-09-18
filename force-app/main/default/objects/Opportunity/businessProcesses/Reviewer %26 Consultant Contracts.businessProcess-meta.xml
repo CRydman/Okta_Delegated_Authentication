@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewer %26 Consultant Contracts</fullName>
+    <description>For use when creating contracts with reviewers and consultants</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Contract ABANDONED - Administrative Change</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract ABANDONED - Reviewer Offboarded</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract ABANDONED - Reviewer Quit</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract ABANDONED - Reviewer Quit %28Could Return%29</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Fully Executed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Fully Executed and All Payments Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract ON HOLD</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract Terminated %26 All Payments Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Modified Contract</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Needs Contract</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Sent to reviewer for signature</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Testing</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>
