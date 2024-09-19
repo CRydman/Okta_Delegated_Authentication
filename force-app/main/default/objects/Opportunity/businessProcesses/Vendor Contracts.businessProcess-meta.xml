@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor Contracts</fullName>
+    <description>For monitoring status of vendor contracts and invoicing</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed - Vendor not pursued by EdReports</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Testing</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Contract Expired- Not Renewed- All Payments Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Contract Expired- Renewed- All Payments Completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Contract Fully Executed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Contract Modified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Contract Terminated - All payments completed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Vendor Prospecting</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>
