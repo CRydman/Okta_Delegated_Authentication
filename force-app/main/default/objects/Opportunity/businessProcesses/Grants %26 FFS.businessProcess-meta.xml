@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grants %26 FFS</fullName>
+    <description>Unified sales process for revenue opportunities: fee-for-service contracts and grants</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Committed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contract review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cultivation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>LOI submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>LOI-in-progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Open-Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal Submitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposal-in-progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospecting</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Testing</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>
